@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "skeleton-css/css/normalize";
+@import "skeleton-css/css/skeleton";
+
+#convert-icon{
+    cursor:pointer;
+    margin-top:35px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#convert-icon:hover{
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-timing-function: ease; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(180deg);
+    }
+}
+body{
+    background: #eaeaea;
+}
+.App{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+.container{
+    box-shadow: rgb(35 55 80 / 30%) 0px 6px 12px;
+    padding: 20px;
+    background: white;
+    border-radius: 3px;
+}
+
+input[type="date"]{
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
 }
