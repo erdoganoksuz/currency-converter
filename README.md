@@ -18,4 +18,5 @@ https://erdoganoksuz.github.io/currency-converter/
 4. Timer for latest update date.
 5. Design is so minimal colors would be good.
 6. Advance level calculation
+7. Error handling, I created a api context for this.
 
