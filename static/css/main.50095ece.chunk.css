@@ -1,2 +1,0 @@
-#convert-icon{cursor:pointer;margin-top:35px}#convert-icon:hover{animation-name:spin;animation-duration:.5s;animation-timing-function:ease}@keyframes spin{0%{transform:rotate(0deg)}to{transform:rotate(180deg)}}body{background:#eaeaea}.App{height:100vh;display:flex;align-items:center}.container{box-shadow:0 6px 12px rgb(35 55 80/30%);padding:20px;background:#fff;border-radius:3px}input[type=date]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none}
-/*# sourceMappingURL=main.50095ece.chunk.css.map */
