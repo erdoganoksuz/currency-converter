@@ -4,7 +4,8 @@ Its basic create-react-app with TypeScript, You can access live demo;
 
 https://erdoganoksuz.github.io/currency-converter/
 
-![currency-converter-overview](/docs/converter.png)  # How to use ?
+![currency-converter-overview](/docs/converter.png)  
+# How to use ?
 1. Install dependencies with `yarn`
 2. Start development env with `yarn start`
 3. Run linter with `yarn lint`
@@ -16,6 +17,6 @@ https://erdoganoksuz.github.io/currency-converter/
 3. Multiple conversion is easy to develop feature but the main problem is design and UX.
 4. Timer for latest update date.
 5. Design is so minimal colors would be good.
-6. Advance level calculation
+6. Advance level calculation.
 7. Error handling, I created a api context for this.
 
